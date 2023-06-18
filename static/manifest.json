@@ -1,0 +1,14 @@
+{
+    "theme_color": "#01eefd",
+    "background_color": "#01eefd",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/app",
+    "name": "Ahorrar",
+    "short_name": "Ahorrar",
+    "icons": [{
+        "src": "/images/purquet.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }]
+}
