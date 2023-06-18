@@ -1,7 +1,8 @@
 <script>
   import { onMount } from "svelte";
   import "../app.postcss";
-  const prerender = true;
+  export const prerender = true;
+
   onMount(()=>{
     if ('serviceWorker' in navigator) {
       // Scope will be restricted to the path where the service-worker-example.js file is located
